@@ -1,0 +1,25 @@
+.container {
+    padding: 0 10px;
+}
+
+.list {
+    display: flex;
+    margin: 0;
+    padding: 0; 
+}
+
+.item {
+    display: block;
+    margin-right: 20px; 
+}
+
+.item a {
+    color: gray;
+    padding-top: 15px;
+    display: block;
+    text-decoration: none;
+}
+
+.item:hover a {
+    color: green;
+}
